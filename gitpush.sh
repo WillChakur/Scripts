@@ -31,8 +31,7 @@ echo "Please enter a commit message:"
 read -r message
 
 git commit -m "$message"
-git push git@gitlab.com:jped/"$repo".git
-git push git@github.com:jdpedersen1/"$repo".git
+git push git@github.com:WillChakur/"$repo".git
 
 echo "HAVE A NICE DAY!!"
 sleep 2
